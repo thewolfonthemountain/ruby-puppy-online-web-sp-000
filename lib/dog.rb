@@ -14,7 +14,7 @@ def self.clear_all
 end
 
 def self.all
-  @@all
+  @@all.each {|dog| puts dog}
 end
 
 
